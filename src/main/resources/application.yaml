@@ -30,8 +30,8 @@ spring:
           starttls:
             enable: true
 twilio:
-  sid:
-  token:
+  sid: ${TWILIO_ACCOUNT_SID}
+  token: ${TWILIO_AUTH_TOKEN}
   number:
 
 
